@@ -1,4 +1,19 @@
 import streamlit as st
+import streamlit.components.v1 as components
+
+GA_TRACKING_CODE = """
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KQ7W446XQW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KQ7W446XQW');
+</script>
+"""
+
+components.html(GA_TRACKING_CODE, height=0, width=0)
 
 
 # --- PAGE SETUP ---
