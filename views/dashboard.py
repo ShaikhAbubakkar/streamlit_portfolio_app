@@ -9,7 +9,7 @@ DATA_URL = "https://raw.githubusercontent.com/Sven-Bo/datasets/master/store_sale
 
 
 # --- PAGE SETUP ---
-st.set_page_config(page_title="Sales Dashboard", page_icon="📈")
+# st.set_page_config(page_title="Sales Dashboard", page_icon="📈")
 st.title("Sales Dashboard")
 
 # --- HIDE STREAMLIT BRANDING ---
