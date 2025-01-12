@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+# --- PAGE SETUP ---
+st.set_page_config(page_title="Sales Dashboard", page_icon="📈")
+st.title("Sales Dashboard")
+
 
 # --- CONFIGS ---
 YEAR = 2023
@@ -8,9 +12,7 @@ CITIES = ["Tokyo", "Yokohama", "Osaka"]
 DATA_URL = "https://raw.githubusercontent.com/Sven-Bo/datasets/master/store_sales_2022-2023.csv"
 
 
-# --- PAGE SETUP ---
-st.set_page_config(page_title="Sales Dashboard", page_icon="📈")
-st.title("Sales Dashboard")
+
 
 # --- HIDE STREAMLIT BRANDING ---
 hide_st_style = """
