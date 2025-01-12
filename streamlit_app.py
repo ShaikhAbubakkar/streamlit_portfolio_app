@@ -5,6 +5,7 @@ GA_TRACKING_CODE = """
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KQ7W446XQW"></script>
 <script>
+    console.log("Google Analytics script loaded");
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
