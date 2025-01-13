@@ -13,8 +13,8 @@ GA_TRACKING_CODE = """
   gtag('config', 'G-KQ7W446XQW');
 </script>
 """
-
-components.html(GA_TRACKING_CODE, height=0, width=0)
+st.markdown(GA_TRACKING_CODE, unsafe_allow_html=True)
+# components.html(GA_TRACKING_CODE, height=0, width=0)
 
 
 # --- PAGE SETUP ---
